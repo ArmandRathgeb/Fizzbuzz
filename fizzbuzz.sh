@@ -1,5 +1,4 @@
 #!/bin/bash
-# You have to install bc for this to work
 for i in {1..100}
 do
     if [ $(expr $i % 15) -eq 0 ]; then
