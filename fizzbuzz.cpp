@@ -1,6 +1,6 @@
 #include <iostream>
 
-template<int i, bool div3, bool div4>
+template<int i, bool div3, bool div5>
 struct Fizzbuzz {
     constexpr static auto val = i;
 };
